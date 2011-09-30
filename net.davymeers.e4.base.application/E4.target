@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.6"?>
+
+<target name="E4" sequenceNumber="42">
+<locations>
+<location includeAllPlatforms="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.e4.ui.css.feature.feature.group" version="0.9.1.v20100603-1900-798A0FAiKQ6jV7i2Rsuo9"/>
+<unit id="org.eclipse.e4.ui.feature.feature.group" version="0.10.0.v20110613-2030-7AAI77FQFxCMos_Wz0drF-G27B74"/>
+<unit id="org.eclipse.e4.runtime.feature.feature.group" version="0.9.1.v20100917-1000-7R77F9wF9JgLWVN4kcCmbZE"/>
+<unit id="org.eclipse.e4.sdk.runtime.feature.feature.group" version="0.11.0.v20110613-2030-18s481GxCJW6GSTdQkgCBClF5HaX"/>
+<repository location="http://download.eclipse.org/e4/downloads/drops/R-0.111-201109121510/repository/"/>
+</location>
+<location includeAllPlatforms="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.e4.rcp.feature.group" version="1.1.0.v20110906-1038-7HAM77FTy21UwAhXBk4781"/>
+<unit id="org.eclipse.e4.rcp.source.feature.group" version="1.1.0.v20110906-1038-7HAM77FTy21UwAhXBk4781"/>
+<unit id="org.eclipse.platform.feature.group" version="4.1.0.v20110612-1800-9JExGoTFniL2AeFiT_tw1ch-slj6WvTpKS8E4MnmRVSZD"/>
+<unit id="org.eclipse.platform.sdk" version="4.1.0.M20110912-1510"/>
+<unit id="org.eclipse.rcp.feature.group" version="4.1.0.v20110822-9-CCFg5FjKACDpdMI9ReckBkdNqG"/>
+<unit id="org.eclipse.emf.ecore.feature.group" version="2.7.1.v20110912-0920"/>
+<unit id="org.eclipse.emf.common.feature.group" version="2.7.0.v20110912-0920"/>
+<repository location="http://download.eclipse.org/eclipse/downloads/drops4/R-4.1.1-201109121510/repository/"/>
+</location>
+</locations>
+</target>
