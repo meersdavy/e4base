@@ -8,5 +8,6 @@
   	<module>../net.davymeers.e4.base.parent</module>
   	<module>../net.davymeers.e4.base.target</module>
   	<module>../net.davymeers.e4.base.application</module>
+  	<module>../net.davymeers.e4.base.application.feature</module>
   </modules>
 </project>
