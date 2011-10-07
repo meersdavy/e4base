@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_k7aFAO_gEeCJn-4GKcJwsA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_n7ejwO_gEeCJn-4GKcJwsA" featurename="commands" parentElementId="org.eclipse.e4.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_1tBBAO_gEeCJn-4GKcJwsA" elementId="net.davymeers.e4.base.about.aboutCommand" commandName="AboutCommand"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_5nf5kO_gEeCJn-4GKcJwsA" featurename="handlers" parentElementId="org.eclipse.e4.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_AVFy8O_hEeCJn-4GKcJwsA" elementId="net.davymeers.e4.base.about.aboutHandler" contributionURI="platform:/plugin/net.davymeers.e4.base.about/net.davymeers.e4.base.about.handlers.AboutHandler" command="_1tBBAO_gEeCJn-4GKcJwsA"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_NFtrEPC4EeCJn-4GKcJwsA" featurename="children" parentElementId="net.davymeers.e4.base.application.menu.help" positionInList="first">
+    <elements xsi:type="menu:HandledMenuItem" xmi:id="_2_kd4PC4EeCJn-4GKcJwsA" label="About" iconURI="" command="_1tBBAO_gEeCJn-4GKcJwsA"/>
+  </fragments>
+</fragment:ModelFragments>

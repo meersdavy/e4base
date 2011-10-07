@@ -8,7 +8,7 @@
  * Contributors:
  *     IBM Corporation - initial API and implementation
  *******************************************************************************/
-package net.davymeers.e4.base.application.handlers;
+package net.davymeers.e4.base.about.handlers;
 
 import javax.inject.Named;
 

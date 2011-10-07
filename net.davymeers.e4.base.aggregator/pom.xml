@@ -12,5 +12,7 @@
   	<module>../net.davymeers.e4.base.product</module>
   	<module>../net.davymeers.e4.base.fileactions</module>
   	<module>../net.davymeers.e4.base.fileactions.feature</module>
+  	<module>../net.davymeers.e4.base.about</module>
+  	<module>../net.davymeers.e4.base.about.feature</module>
   </modules>
 </project>

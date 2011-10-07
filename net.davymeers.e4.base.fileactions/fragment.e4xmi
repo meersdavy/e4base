@@ -16,7 +16,6 @@
     <elements xsi:type="menu:HandledMenuItem" xmi:id="_2Up4oPC4EeCJn-4GKcJwsA" label="Open" iconURI="platform:/plugin/net.davymeers.e4.base.fileactions/icons/sample.gif" command="_1tBBAO_gEeCJn-4GKcJwsA"/>
     <elements xsi:type="menu:HandledMenuItem" xmi:id="_2_kd4PC4EeCJn-4GKcJwsA" label="Save" iconURI="platform:/plugin/net.davymeers.e4.base.fileactions/icons/save_edit.gif" command="_2rDb4PC3EeCJn-4GKcJwsA"/>
   </fragments>
-  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_WnUc0PC7EeCJn-4GKcJwsA"/>
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_fZOXUPC7EeCJn-4GKcJwsA" featurename="bindings" parentElementId="net.davymeers.e4.base.application.bindingtable">
     <elements xsi:type="commands:KeyBinding" xmi:id="_qG9sYPC7EeCJn-4GKcJwsA" keySequence="Ctrl+O" command="_1tBBAO_gEeCJn-4GKcJwsA"/>
     <elements xsi:type="commands:KeyBinding" xmi:id="_s3PboPC7EeCJn-4GKcJwsA" keySequence="Ctrl+S" command="_2rDb4PC3EeCJn-4GKcJwsA"/>

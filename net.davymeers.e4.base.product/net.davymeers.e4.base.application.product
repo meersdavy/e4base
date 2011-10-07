@@ -18,6 +18,7 @@
    <features>
       <feature id="net.davymeers.e4.base.application.feature" version="1.0.0.qualifier"/>
       <feature id="net.davymeers.e4.base.fileactions.feature" version="1.0.0.qualifier"/>
+      <feature id="net.davymeers.e4.base.about.feature" version="1.0.0.qualifier"/>
    </features>
 
    <configurations>

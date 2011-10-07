@@ -12,26 +12,22 @@
       <children xsi:type="menu:Menu" xmi:id="_4KvEieqtEeC6bOQm57aNfw" elementId="net.davymeers.e4.base.application.menu.file" label="File">
         <children xsi:type="menu:HandledMenuItem" xmi:id="_4KvEjOqtEeC6bOQm57aNfw" label="Quit" command="_4KvEeuqtEeC6bOQm57aNfw"/>
       </children>
-      <children xsi:type="menu:Menu" xmi:id="_4KvEjeqtEeC6bOQm57aNfw" label="Help">
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_4KvEjuqtEeC6bOQm57aNfw" label="About" command="_4KvEhOqtEeC6bOQm57aNfw"/>
-      </children>
+      <children xsi:type="menu:Menu" xmi:id="_4KvEjeqtEeC6bOQm57aNfw" elementId="net.davymeers.e4.base.application.menu.help" label="Help"/>
     </mainMenu>
     <trimBars xmi:id="_4KvEk-qtEeC6bOQm57aNfw">
       <children xsi:type="menu:ToolBar" xmi:id="_4KvElOqtEeC6bOQm57aNfw" elementId="toolbar:org.eclipse.ui.main.toolbar"/>
     </trimBars>
   </children>
   <handlers xmi:id="_4KvEe-qtEeC6bOQm57aNfw" contributionURI="platform:/plugin/net.davymeers.e4.base.application/net.davymeers.e4.base.application.handlers.QuitHandler" command="_4KvEeuqtEeC6bOQm57aNfw"/>
-  <handlers xmi:id="_4KvEheqtEeC6bOQm57aNfw" contributionURI="platform:/plugin/net.davymeers.e4.base.application/net.davymeers.e4.base.application.handlers.AboutHandler" command="_4KvEhOqtEeC6bOQm57aNfw"/>
   <bindingTables xmi:id="_4KvEfOqtEeC6bOQm57aNfw" elementId="net.davymeers.e4.base.application.bindingtable" bindingContext="_4KvEceqtEeC6bOQm57aNfw">
     <bindings xmi:id="_4KvEfeqtEeC6bOQm57aNfw" keySequence="Ctrl+Q" command="_4KvEeuqtEeC6bOQm57aNfw"/>
-    <bindings xmi:id="_4KvEhuqtEeC6bOQm57aNfw" keySequence="Ctrl+A" command="_4KvEhOqtEeC6bOQm57aNfw"/>
+    <bindings xmi:id="_4KvEhuqtEeC6bOQm57aNfw" keySequence="Ctrl+A"/>
   </bindingTables>
   <rootContext xmi:id="_4KvEceqtEeC6bOQm57aNfw" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
     <children xmi:id="_4KvEcuqtEeC6bOQm57aNfw" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_4KvEc-qtEeC6bOQm57aNfw" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
   </rootContext>
   <commands xmi:id="_4KvEeuqtEeC6bOQm57aNfw" elementId="net.davymeers.e4.base.application.quitCommand" commandName="quitCommand"/>
-  <commands xmi:id="_4KvEhOqtEeC6bOQm57aNfw" elementId="net.davymeers.e4.base.application.aboutCommand" commandName="aboutCommand"/>
   <addons xmi:id="_4KvEdOqtEeC6bOQm57aNfw" elementId="org.eclipse.e4.core.commands.service" contributionURI="platform:/plugin/org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_4KvEdeqtEeC6bOQm57aNfw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="platform:/plugin/org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_4KvEduqtEeC6bOQm57aNfw" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="platform:/plugin/org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: About
+Bundle-SymbolicName: net.davymeers.e4.base.about;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: javax.inject,
+ org.eclipse.e4.core.di.annotations,
+ org.eclipse.e4.ui.services,
+ org.eclipse.jface.dialogs,
+ org.eclipse.swt.widgets
+Require-Bundle: org.eclipse.e4.ui.workbench;bundle-version="0.10.1"
